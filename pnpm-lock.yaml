@@ -51,9 +51,6 @@ importers:
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
-      dist:
-        specifier: link:/dist
-        version: link:../../dist
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
@@ -72,6 +69,9 @@ importers:
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
+      probable-invention:
+        specifier: 'link:'
+        version: 'link:'
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17

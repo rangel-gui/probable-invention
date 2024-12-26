@@ -1,10 +1,13 @@
 {
-  "name": "probable-invention",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@giuzus/probable-invention",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/probable-invention.js",
   "types": "dist/probable-invention.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b ./tsconfig.lib.json && vite build",
@@ -28,18 +31,37 @@
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.20",
-    "dist": "link:/dist",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.13.0",
     "postcss": "^8.4.49",
+    "probable-invention": "link:",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.18.1",
     "vite": "^6.0.3",
     "vite-plugin-dts": "^4.4.0",
     "vite-plugin-lib-inject-css": "^2.1.1"
-  }
+  },
+  "description": "> [!WARNING] > Please note that this is a study project and is not intended for use. I will not be providing any support for it.",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giuzus/probable-invention.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "library"
+  ],
+  "author": "Giuzus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giuzus/probable-invention/issues"
+  },
+  "homepage": "https://github.com/Giuzus/probable-invention#readme"
 }

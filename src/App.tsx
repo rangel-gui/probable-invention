@@ -1,4 +1,4 @@
-import { Button } from "../dist/probable-invention.js";
+import { Button } from "probable-invention";
 import { useState } from "react";
 
 function App() {
