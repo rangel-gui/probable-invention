@@ -6,9 +6,7 @@
 The main reason of this project is to improve my skills in the following:
 
 - Vite
-- React TS + SWC
--
-- Vitest
+- ReactTS + SWC
 - Creation of component libraries
 - Storybook
 - Publishing component libraries to NPM
