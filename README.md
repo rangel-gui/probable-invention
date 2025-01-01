@@ -12,5 +12,6 @@ The main reason of this project is to improve my skills in the following:
   - Visual tests
   - A11y tests
   - Component tests
+  - Snapshot tests
 - Publishing component libraries to NPM
 - Github actions
