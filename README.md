@@ -9,5 +9,8 @@ The main reason of this project is to improve my skills in the following:
 - ReactTS + SWC
 - Creation of component libraries
 - Storybook
+  - Visual tests
+  - A11y tests
+  - Component tests
 - Publishing component libraries to NPM
 - Github actions

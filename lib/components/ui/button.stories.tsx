@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { fn } from "@storybook/test";
+import { expect, fn, userEvent, within } from "@storybook/test";
 
 import { Button } from "./button";
 import { ChevronRight, Mail } from "lucide-react";
@@ -135,5 +135,18 @@ export const AsChild: Story = {
   args: {
     asChild: true,
     children: <a href="#as%20child">I am a the child anchor</a>,
+  },
+};
+
+export const onClick: Story = {
+  args: {
+    onClick: fn(),
+  },
+  play: async ({ args, canvasElement }) => {
+    const canvas = within(canvasElement);
+
+    await userEvent.click(canvas.getByRole("button"));
+
+    await expect(args.onClick).toHaveBeenCalled();
   },
 };
