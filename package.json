@@ -15,8 +15,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test-storybook": "test-storybook",
-    "chromatic": "npx chromatic --project-token=chpt_7eb5058dfa43a38"
+    "test-storybook": "test-storybook"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
