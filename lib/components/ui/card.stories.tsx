@@ -10,14 +10,13 @@ import {
 import { ComponentProps } from "react";
 
 type CardPropsWithCustomArgs = ComponentProps<typeof Card> & {
-  title: string;
+  title?: string;
   description?: string;
   content?: string;
   footer?: string;
 };
 
 const meta: Meta<CardPropsWithCustomArgs> = {
-  //TODO: why is this giving a type error?
   component: Card,
   tags: ["autodocs"],
   args: {
