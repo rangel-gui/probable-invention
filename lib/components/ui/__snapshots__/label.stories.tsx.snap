@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/ui/label Default smoke-test 1`] = `
+<label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+  Label
+</label>
+`;
+
+exports[`components/ui/label Disabled play-test 1`] = `
+<div class="flex items-center space-x-2">
+  <input type="checkbox"
+         class="peer"
+         id="terms"
+         disabled
+  >
+  <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+         for="terms"
+  >
+    Label
+  </label>
+</div>
+`;
