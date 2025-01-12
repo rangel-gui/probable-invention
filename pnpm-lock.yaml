@@ -42,6 +42,9 @@ importers:
       '@eslint/js':
         specifier: ^9.17.0
         version: 9.17.0
+      '@giuzus/probable-invention':
+        specifier: 'link:'
+        version: 'link:'
       '@storybook/addon-a11y':
         specifier: 8.4.7
         version: 8.4.7(storybook@8.4.7)
@@ -111,9 +114,6 @@ importers:
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
-      probable-invention:
-        specifier: 'link:'
-        version: 'link:'
       storybook:
         specifier: 8.4.7
         version: 8.4.7

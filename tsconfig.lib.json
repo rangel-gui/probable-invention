@@ -1,4 +1,4 @@
 {
   "extends": "./tsconfig.app.json",
-  "include": ["lib", "lib/components", "lib/utils/index.ts"]
+  "include": ["lib", "lib/components", "lib/utils/index.ts", ".storybook/*"]
 }
