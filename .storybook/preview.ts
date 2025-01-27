@@ -1,5 +1,6 @@
 import type { Preview } from "@storybook/react";
 import { withThemeByClassName } from '@storybook/addon-themes';
+import { allModes } from "./modes";
 import "../lib/index.css";
 
 const preview: Preview = {
@@ -8,6 +9,12 @@ const preview: Preview = {
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/i,
+      },
+    },
+    chromatic: {
+      modes: {
+        light: allModes["light"],
+        dark: allModes["dark"],
       },
     },
   },
