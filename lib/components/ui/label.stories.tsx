@@ -4,7 +4,6 @@ import { expect, userEvent, within } from "@storybook/test";
 
 const meta: Meta<typeof Label> = {
   component: Label,
-  tags: ["autodocs"],
 };
 
 export default meta;

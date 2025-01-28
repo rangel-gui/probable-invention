@@ -18,7 +18,6 @@ type CardPropsWithCustomArgs = ComponentProps<typeof Card> & {
 
 const meta: Meta<CardPropsWithCustomArgs> = {
   component: Card,
-  tags: ["autodocs"],
   args: {
     title: "Card Title",
     description: "Card Description",

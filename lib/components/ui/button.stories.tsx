@@ -6,7 +6,6 @@ import { ChevronRight, Mail } from "lucide-react";
 
 const meta: Meta<typeof Button> = {
   component: Button,
-  tags: ["autodocs"],
   argTypes: {
     children: {
       control: "select",
