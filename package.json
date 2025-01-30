@@ -1,7 +1,7 @@
 {
   "name": "@giuzus/probable-invention",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/probable-invention.js",
   "types": "dist/probable-invention.d.ts",
@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b ./tsconfig.lib.json && vite build",
+    "publish:npm": "pnpm build && pnpm publish",
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
