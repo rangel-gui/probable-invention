@@ -27,7 +27,7 @@ export const Disabled: Story = {
   ),
   play: async ({ args, canvasElement }) => {
     const canvas = within(canvasElement);
-    const label = canvas.getByLabelText(args.children?.toString()!);
+    const label = canvas.getByLabelText(args.children as string);
     const checkbox = canvas.getByRole("checkbox");
 
     await userEvent.click(label);
